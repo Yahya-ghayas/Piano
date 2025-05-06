@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: rgb(161, 145, 145);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: "Arvo", cursive;
+    margin: 100px;
+}
+
+
+
+.set {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  width: 60px;
+  height: 150px;
+  border: none;
+  background: white;
+  border-radius: 6px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 4px #888;
+  transition: transform 0.1s;
+  margin-bottom: 200px;
+}
+
+.key:active, 
+.key:playing {
+  background-color: rgb(146, 237, 237);
+  transform: scale(0.95);
+}
